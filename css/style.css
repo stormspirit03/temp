@@ -1,0 +1,249 @@
+/* everything in css is box
+padding increases the size of box from all the side
+margin decieds how much space should be wetween 2 elements */
+
+
+
+body{
+    /* padding-top: 40px; */
+    text-align: center;
+    color: #40514e;
+    /* there is default margin by html */
+    /* background-color white; */
+    /* body also has default margin we need to keep it 0 to touch top */
+    margin:0; 
+}
+.hr{
+    border-style: dotted none none none ;
+    border-width: 6px;
+    height: 0;
+    width: 80px;
+    color:gray;
+    border: 10 0 0 0;
+    /* border-left: 0;
+    border-bottom: 0; */
+    
+    
+}
+
+
+/* ******************************* top div*********************************************************************************** */
+.top-div{
+    padding-top: 50px;
+    background-color: #e4f9f5;
+    
+}
+
+
+.top-cloud{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 6em;
+    top: 5em;
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 135px;
+    left:200px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.name{
+    height:90px;
+    width: 300px;
+    padding-top: 100px;
+    margin:50px,auto,0,auto;
+}
+.programmer{
+
+    font-size: 1.5rem;
+    color: #0BB89D;
+}
+
+
+
+/* we use # for id and .for class */
+/* **********************************           middle div ****************************************************************************** */
+.middle-container{
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+
+.dp{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.i1{
+    /* float ::::::: can wrap imgae around txt vip note */
+    /* and can use clear to skip float for perticular text , clear left or clear right  but appply clear on paragraph nd not image  */
+    margin-right: 30px;
+    float: left;
+    border-radius: 100%;
+    width: 25%;
+}
+.i2{
+    margin-left: 30px;
+    float: right;
+    border-radius: 100%;
+    width: 25%;
+}
+
+
+.skill-row1{
+    /* to centre all the box but add padding to top and bottom 100px */
+    margin: 30px auto 100px auto;  
+    /* to make it half the width */
+    width: 55%;
+    /* insted of centered text make it left aligned */
+    text-align: left;
+}
+
+
+.skill-row{
+    /* to centre all the box but add padding to top and bottom 100px */
+    margin: 100px auto 100px auto;  
+    /* to make it half the width */
+    width: 55%;
+    /* insted of centered text make it left aligned */
+    text-align: left;
+}
+
+
+
+.h3{
+    color: #11999e;
+}
+
+.h2{
+    color: #66bfbf;
+    padding-bottom: 10px;
+}
+
+.p{
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+
+
+.li{
+    font-size: 1.2em;
+    line-height: 1.7;
+    
+}
+
+.contact-me{
+
+}
+
+.contact-msg{
+    width:40%;
+    margin: 0px auto 40px;
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999a);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999a);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999a);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999a);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999a);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+/* to right aligne the div2 */
+
+/***************************************************************  bottom div ******************************************************  */
+
+.bottom-container{
+    /* height: 200px; */
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    
+}
+
+.footer-link-github{
+    color: #157579;
+    /* to  keep gap between those 3 texts */
+    margin: 10px 20px;
+    /* to remove anchor tag underline */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link-github:hover{
+    color: #3e4141;
+}
+
+.footer-link-blog{
+    color: #157579;
+    /* to  keep gap between those 3 texts */
+    margin: 10px 20px;
+    /* to remove anchor tag underline */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link-blog:hover{
+    color: #d7dfdf;
+}
+
+
+.footer-link-linkedin{
+    color: #157579;
+    /* to  keep gap between those 3 texts */
+    margin: 10px 20px;
+    /* to remove anchor tag underline */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link-linkedin:hover{
+    color: #1288d6;
+}
+
+.footer-link-tindog{
+    color: #157579;
+    /* to  keep gap between those 3 texts */
+    margin: 10px 20px;
+    /* to remove anchor tag underline */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link-tindog:hover{
+    color: #bd3f3f;
+}
+
+
+
+
+.credit{
+    color: rgb(19, 18, 18);
+    font-size: 0.75rem;
+    padding: 20px 0;
+    
+}

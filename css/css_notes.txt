@@ -1,0 +1,37 @@
+css display property 
+*block diplay element: some elements has full width for the box ex paragraph , h ,div,ol,ul , li, forms etc we can change width 
+but we cant stack them in one line
+
+*inline diplay elements: some has takes only element size  ex img ,span , a mwe can stack them in one line but we cant change their width
+
+##to over come abouve we have 3rd type disply element:
+ *inline-block : 
+ 
+ * 4th type is none: we can hide the element without deleting it from html can be used for quiz ans 
+ same can be achieved with  visibilty: hidden;  . 
+
+
+
+
+* to decorate part of word or text we can use span tag then modify it ex : Programmer if we want to modify pro 
+use it like <p> <span> pro </span>grammer </p>
+* to bring blocks in one line we do disaply:inline-blocks
+
+##absolute positioning vs relative positioning:
+
+in absolute it affect other's positions where as in relative positioning it doesnt affect other's positions 
+absolute positions according to its closest parent
+
+*fixed is also  type of positioning where it doesnt change position even if we scroll (widly used for header)
+
+font:
+caveat
+
+* 100%=16px=1em
+when we use % or em  font size  get inherited from parent. where as in px or static it doesnt
+insted we can use rem (root em) to avoid the all this.  rem is recommended
+
+* using float we can wrap image around text 
+and can use clear to skip float for perticular text , clear left or clear right 
+$$$$$ float is most abused property and only use it when necessary to wrap text around any element. dont use it for positionaing
+insead use absolute or relative for positioning 
